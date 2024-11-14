@@ -200,7 +200,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "member-login-check-uid01-api.php",
+                    url: "http://cychenwork1.free.nf/server_test_html/api/member-login-check-uid01-api.php",
                     data: JSON.stringify(dataJSON),
                     dataType: "json",
                     success: showdata_check_uid,
@@ -288,7 +288,7 @@
 
                     $.ajax({
                         type: "POST",
-                        url: "member-update-api.php",
+                        url: "http://cychenwork1.free.nf/server_test_html/api/member-update-api.php",
                         data: JSON.stringify(dataJSON),
                         dataType: "json",
                         success: showdata_update,
@@ -333,7 +333,7 @@
                     //讀取會員資料
                     $.ajax({
                         type: "GET",
-                        url: "member-read-api.php",
+                        url: "http://cychenwork1.free.nf/server_test_html/api/member-read-api.php",
                         dataType: "json",
                         success: showdata_Read,
                         error: function (xhr, ajaxOptions, thrownError) {
@@ -484,7 +484,7 @@
 
                         $.ajax({
                             type: "POST",
-                            url: "member-delete-api.php",
+                            url: "http://cychenwork1.free.nf/server_test_html/api/member-delete-api.php",
                             data: JSON.stringify(dataJSON),
                             dataType: "json",
                             success: showdata_member_delete,
@@ -544,7 +544,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "member-update-state-api.php",
+                    url: "http://cychenwork1.free.nf/server_test_html/api/member-update-state-api.php",
                     data: JSON.stringify(dataJSON),
                     dataType: "json",
                     success: showdata_update_state,
@@ -579,7 +579,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "member-update-level-api.php",
+                    url: "http://cychenwork1.free.nf/server_test_html/api/member-update-level-api.php",
                     data: JSON.stringify(dataJSON),
                     dataType: "json",
                     success: showdata_update_level,
