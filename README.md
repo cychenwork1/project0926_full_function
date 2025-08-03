@@ -3,3 +3,7 @@
 https://cychenwork1.free.nf/index.html?i=1
 
 https://cychenwork1.free.nf/server_test_html/20240730%20hotel.html
+
+
+本機測試
+http://220.133.109.230:8080/
